@@ -90,8 +90,8 @@ Visualization updates dynamically for each step.
 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/<your-username>/smart-inventory-sim.git
-cd smart-inventory-sim
+git clone https://github.com/sehat-inc/OneAI_InventoryOptimization
+cd OneAI_InventoryOptimization
 ```
 
 2️⃣ Install Dependencies
@@ -125,8 +125,8 @@ streamlit run app.py
 
 3️⃣ Configure in the Sidebar:
 
-- Model Path: `/content/ensemble_forecast_model.pkl`
-- Last 30 Days CSV: `/content/sku1_last_30days.csv`
+- Model Path: `ensemble_forecast_model.pkl`
+- Last 30 Days CSV: `sku1_last_30days.csv`
 - Set lead time, horizon, and cost parameters
 - Hit “🚀 Start Simulation”
 
@@ -162,11 +162,9 @@ Forecast models can be replaced with any `.pkl` returning a single-day predictio
 
 Developed by:
 
-- Maaz — Computer Science (AI) Major
+- Sehat Gang — GIKI
 
-For: Smart Inventory Optimization Hackathon
-
-Department of AI & Computer Science
+For: OneAI Hackathon
 
 ## 🏁 Example Command Recap
 
